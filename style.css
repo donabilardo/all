@@ -11,16 +11,20 @@
 .global_wrap {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 .global_top {
     min-height: calc(var(--minheight_for_top) - var(--minheigh_for_footer));
     /*тут вычисляем высоту контентной части используя переменные*/
     flex-grow: 1;
+    box-sizing: border-box;
 }
 
 .global_bottom {
     min-height: var(--minheigh_for_footer);
+    box-sizing: border-box;
+
     /*Минимальная высота подвала*/
 }
 
@@ -29,6 +33,13 @@ h1 {
     font-weight: 300;
     color: #1F3F68;
     letter-spacing: 0.04em;
+    /*Для мобилок*/
+    font-size: 31px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: capitalize;
+    max-width: 340px;
+    padding: 28px 0px 0px 0px;
 }
 
 h2 {
@@ -65,10 +76,14 @@ h5 {
 
 .top_text {
     font-family: 'Roboto';
-    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
     letter-spacing: 0.05em;
     color: #1F3F68;
     opacity: 0.6;
+    padding-top: 12px;
 }
 
 .card_text {
@@ -83,15 +98,20 @@ h5 {
 .container {
     margin: 0 auto;
     max-width: 340px;
+    padding: 0px 20px 0px 20px;
+    box-sizing: border-box;
 }
 
 .top_wrap {
     background: linear-gradient(0deg, #DAEAF7 8.84%, rgba(152, 195, 232, 0) 31.12%);
-min-height: 376px;
+    min-height: 376px;
+    box-sizing: border-box;
 }
 
 nav {
     padding: 5px 0px 5px 0px;
+    margin-top: 20px;
+
 }
 
 .nav_ul {
