@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    --minheigh_for_footer: 540px;
+    /*Переменная дя минимальной выстоты подвала*/
+    --minheight_for_top: 100vh;
+    /*Переменная для минимальной высоты контентной части, включая хедер*/
+}
+
+.global_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.global_top {
+    min-height: calc(var(--minheight_for_top) - var(--minheigh_for_footer));
+    /*тут вычисляем высоту контентной части используя переменные*/
+    flex-grow: 1;
+}
+
+.global_bottom {
+    min-height: var(--minheigh_for_footer);
+    /*Минимальная высота подвала*/
+}
