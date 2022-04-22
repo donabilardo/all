@@ -153,6 +153,7 @@ nav {
 .we_we_do {
     padding-top: 48px;
 }
+
 .card_box {
     display: flex;
     justify-content: space-between;
@@ -162,7 +163,7 @@ nav {
 
 .card {
     max-width: 335px;
-   min-height: 400px;
+    min-height: 400px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 20px;
@@ -186,18 +187,38 @@ nav {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    color: #1F3F68; 
+    color: #1F3F68;
     opacity: 0.6;
     padding-top: 14px;
     max-width: 250px;
 }
-.card_box_link{
+
+.card_box_link {
     font-family: 'Roboto';
-font-weight: 400;
-font-size: 14px;
-line-height: 30px;
-letter-spacing: 0.05em;
-color: #5A98D0;
-padding-top: 45px;
-text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    padding-top: 45px;
+    text-decoration: none;
+}
+
+.project {
+    padding-top: 64px;
+}
+
+.project>h2 {
+    padding-bottom: 32px;
+}
+
+.project>p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    max-width: 340px;
 }
