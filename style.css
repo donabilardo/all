@@ -55,9 +55,51 @@ h4 {
     color: #1F3F68;
     letter-spacing: 0.05em;
 }
+
 h5 {
     font-family: 'Roboto';
-font-weight: 400;
-letter-spacing: 0.05em;
-color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.top_text {
+    font-family: 'Roboto';
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.card_text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 340px;
+}
+
+.top_wrap {
+    background: linear-gradient(0deg, #DAEAF7 8.84%, rgba(152, 195, 232, 0) 31.12%);
+min-height: 376px;
+}
+
+nav {
+    padding: 5px 0px 5px 0px;
+}
+
+.nav_ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_img {
+    height: 38px;
 }
