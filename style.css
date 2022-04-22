@@ -23,3 +23,41 @@
     min-height: var(--minheigh_for_footer);
     /*Минимальная высота подвала*/
 }
+
+h1 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #1F3F68;
+    letter-spacing: 0.04em;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+}
+h5 {
+    font-family: 'Roboto';
+font-weight: 400;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
