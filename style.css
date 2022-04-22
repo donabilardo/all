@@ -58,8 +58,9 @@ h2 {
 h3 {
     font-family: 'Roboto';
     font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
     text-align: right;
-    letter-spacing: 0.05em;
     color: #FFFFFF;
 }
 
@@ -175,7 +176,7 @@ nav {
     flex-direction: column;
 }
 
-.card img {
+.card> img {
     max-height: 112px;
     padding-top: 41px;
     align-self: center;
@@ -221,4 +222,40 @@ nav {
     letter-spacing: 0.05em;
     color: #222222;
     max-width: 340px;
+    padding-bottom: 82px;
+}
+
+.project_item img {
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.project_box {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+.project_item {
+    position: relative;
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin-top: 16px;
+
+}
+.project_item_title {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    text-align: left;
+}
+.project_item_title_smart {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    text-align: right;
+}
+
+.for_margin {
 }
