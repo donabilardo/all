@@ -24,8 +24,8 @@
 .global_bottom {
     min-height: var(--minheigh_for_footer);
     box-sizing: border-box;
-
     /*Минимальная высота подвала*/
+    background: #316099;
 }
 
 h1 {
@@ -204,7 +204,11 @@ nav {
     padding-top: 45px;
     text-decoration: none;
 }
-
+.project_text_block {
+    margin: 0 auto;
+    max-width: 345px;
+text-align: center;
+}
 .project {
     padding-top: 64px;
 }
