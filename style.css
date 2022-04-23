@@ -81,6 +81,24 @@ h5 {
     color: #FFFFFF;
 }
 
+h6 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+hr {
+    opacity: 0.4;
+    /* white */
+
+    border: 1px solid #FFFFFF;
+}
+
 .container {
     margin: 0 auto;
     padding: 0px 20px 0px 20px;
@@ -176,7 +194,7 @@ nav {
     flex-direction: column;
 }
 
-.card> img {
+.card>img {
     max-height: 112px;
     padding-top: 41px;
     align-self: center;
@@ -204,11 +222,14 @@ nav {
     padding-top: 45px;
     text-decoration: none;
 }
+
 .project_text_block {
     margin: 0 auto;
-    max-width: 345px;
-text-align: center;
+    max-width: 340px;
+    text-align: center;
+    padding-bottom: 82px;
 }
+
 .project {
     padding-top: 64px;
 }
@@ -234,6 +255,7 @@ text-align: center;
     border-radius: 10px;
     box-sizing: border-box;
 }
+
 .project_box {
     display: flex;
     flex-direction: column;
@@ -241,6 +263,7 @@ text-align: center;
     justify-content: space-between;
     padding-bottom: 64px;
 }
+
 .project_item {
     position: relative;
     box-sizing: border-box;
@@ -248,12 +271,14 @@ text-align: center;
     margin-top: 16px;
 
 }
+
 .project_item_title {
     position: absolute;
     top: 16px;
     left: 16px;
     text-align: left;
 }
+
 .project_item_title_smart {
     position: absolute;
     top: 16px;
@@ -261,5 +286,62 @@ text-align: center;
     text-align: right;
 }
 
-.for_margin {
+.for_margin {}
+
+
+.footer_box>h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 18px;
+    max-width: 340px;
+    margin: 0 auto;
+}
+.footer_box>p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+opacity: 0.6;
+padding-top: 32px;
+}
+.footer_box_link {
+    box-sizing: border-box;
+    max-width: 110px;
+    margin: 0 auto;
+    padding: 42px 0px 42px 0px;
+}
+.footer_box_link>a {
+    background-color: #5A98D0;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+}
+.footer_ol {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-bottom: 37px;
+    padding-top: 32px;
+}
+.footer_ol>li {
+    padding-bottom: 18px;
+    padding-left: 18px;
+    margin-left: 20px;
 }
