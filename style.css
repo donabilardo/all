@@ -113,14 +113,17 @@ hr {
     max-height: 376px;
     box-sizing: border-box;
 }
+
 .top_info {
     display: flex;
     flex-direction: column;
 }
+
 .top_info h1 {
     display: inline-block;
     align-self: center;
 }
+
 .top_text {
     font-family: 'Roboto';
     font-weight: 400;
@@ -309,24 +312,27 @@ nav {
     max-width: 340px;
     margin: 0 auto;
 }
+
 .footer_box>p {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.05em;
-color: #FFFFFF;
-opacity: 0.6;
-padding-top: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-top: 32px;
 }
+
 .footer_box_link {
     box-sizing: border-box;
     max-width: 110px;
     margin: 0 auto;
     padding: 42px 0px 42px 0px;
 }
+
 .footer_box_link>a {
     background-color: #5A98D0;
     text-decoration: none;
@@ -339,6 +345,7 @@ padding-top: 32px;
     padding: 8px 16px;
 
 }
+
 .footer_ol {
     font-family: 'Roboto';
     font-weight: 400;
@@ -349,10 +356,68 @@ padding-top: 32px;
     padding-bottom: 37px;
     padding-top: 32px;
 }
+
 .footer_ol>li {
     padding-bottom: 18px;
     padding-left: 18px;
     margin-left: 20px;
 }
 
-@media ()
+@media (min-width:500px) {
+    .container {
+        padding: 0px 32px 0px 32px;
+    }
+
+    .top_info {
+        display: flex;
+        flex-grow: 1;
+        height: 100%;
+    }
+
+    .top_info>h1 {
+        font-size: 64px;
+        line-height: 74px;
+        padding-top: 112px;
+        align-self: baseline;
+        text-align: left;
+        max-width: 510px;
+
+    }
+
+    .top_text {
+        padding-top: 32px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        max-width: 425px;
+    }
+
+    .top_link {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        min-width: 220px;
+min-height: 56px;
+
+    }
+
+    .top_link_wrap {
+        margin: 0px;
+        padding-top: 32px;
+        padding-bottom: 190px;
+
+padding: 15px 50px 15px 50px;
+    }
+
+    .top_wrap {
+        min-height: 768px;
+    }
+
+    .global_bottom {
+        --minheigh_for_footer: 644px;
+        min-height: var(--minheigh_for_footer);
+    }
+}
