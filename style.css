@@ -113,7 +113,14 @@ hr {
     max-height: 376px;
     box-sizing: border-box;
 }
-
+.top_info {
+    display: flex;
+    flex-direction: column;
+}
+.top_info h1 {
+    display: inline-block;
+    align-self: center;
+}
 .top_text {
     font-family: 'Roboto';
     font-weight: 400;
@@ -347,3 +354,5 @@ padding-top: 32px;
     padding-left: 18px;
     margin-left: 20px;
 }
+
+@media ()
