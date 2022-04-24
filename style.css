@@ -291,6 +291,10 @@ nav {
   text-align: right;
 }
 
+.top_info {
+  background-image: none;
+}
+
 .footer_box > h5 {
   font-family: "Roboto";
   font-style: normal;
@@ -600,6 +604,10 @@ nav {
     padding: 0px;
   }
 
+  .top_wrap {
+    width: 100%;
+  }
+
   .top_wrap nav {
     margin-top: 34px;
   }
@@ -627,6 +635,7 @@ nav {
     /* Safari */
     justify-content: space-between;
     flex-wrap: wrap;
+    box-sizing: border-box;
   }
   .card_box h2 {
     font-weight: 300;
@@ -641,11 +650,80 @@ nav {
   }
   .card_box .card {
     flex-basis: 359px;
+    min-width: 359px;
     margin: 0px;
-    margin-right: 32px;
+    margin-right: 16px;
     box-sizing: border-box;
   }
   .card_box .card:last-child {
     margin-right: 0px;
+  }
+  .card_box h4 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+  }
+  .card_box .card_text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .card_box .card_box_link {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .project h2 {
+    padding: 64px 0px 32px 0px;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+  .project .project_text_block {
+    max-width: 750px;
+    padding-bottom: 64px;
+  }
+  .project .project_text_block p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+  }
+  .project .for_margin {
+    margin-top: 0px;
+  }
+  .project .img_smart {
+    min-height: 480px;
+  }
+  .project .img_cards {
+    min-height: 417px;
+  }
+  .project .project_item_title_smart {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    font-size: 32px;
+  }
+  .project .project_item_title_smart h3 {
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+  }
+  .project .project_item_title {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+  }
+  .project .project_item_title h3 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+  }
+  .project .project_box {
+    padding-bottom: 112px;
   }
 }/*# sourceMappingURL=style.css.map */
