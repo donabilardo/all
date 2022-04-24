@@ -404,7 +404,7 @@ nav {
         padding-bottom: 190px;
         min-width: 220px;
         box-sizing: border-box;
-        
+
 
         .top_link {
             width: 100%;
@@ -416,16 +416,19 @@ nav {
             padding-bottom: 15px;
         }
     }
+
     .top_info_bg {
         display: flex;
         flex-direction: column;
 
     }
+
     .top_info {
         background-image: url(img/bg.svg);
         background-repeat: no-repeat;
         background-size: 50%;
-        background-position: right bottom: 87px;;
+        background-position: right bottom 87px;
+        ;
         flex-grow: 1;
         height: 100%;
     }
@@ -433,6 +436,53 @@ nav {
     .top_wrap {
         min-height: 768px;
     }
+
+    .we_we_do {
+
+        h2 {
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 46px;
+            padding-top: 64px;
+            padding-bottom: 64px;
+            max-width: 650px;
+        }
+
+        h4 {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.05em;
+            color: #1F3F68;
+            min-width: 265px;
+            padding-right: 32px;
+        }
+
+        .card {
+            padding: 0px 0px 0px 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card_text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.05em;
+            padding-top: 15px;
+        }
+
+        .card_box_link {
+            padding-top: 25px;
+            padding-bottom: 42px;
+        }
+
+        img {
+            align-self: center;
+            margin-left: -30px;
+        }
+    }
+
 
     .global_bottom {
         --minheigh_for_footer: 644px;
