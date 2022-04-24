@@ -531,7 +531,66 @@ nav {
   }
 
   .global_bottom {
-    --minheigh_for_footer: 644px;
-    min-height: var(--minheigh_for_footer);
+    min-height: 644px;
+  }
+  .global_bottom .footer_wrap {
+    display: flex;
+  }
+  .global_bottom .footer_box {
+    max-width: 336px;
+    padding: 47px 0px 64px 125px;
+    display: flex;
+    flex-direction: column;
+  }
+  .global_bottom .footer_box h5 {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 0;
+    max-width: none;
+  }
+  .global_bottom .footer_box p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+  }
+  .global_bottom .footer_box_link {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 160px;
+    margin-left: 50px;
+    min-width: 135px;
+    min-height: 32px;
+  }
+  .global_bottom .footer_box_link a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+  }
+  .global_bottom .footer_ol {
+    padding-top: 64px;
+    padding-left: 125px;
+    padding-bottom: 64px;
+  }
+  .global_bottom .footer_ol li {
+    padding-left: 35px;
+  }
+  .global_bottom .copyright {
+    max-width: 250px;
+    padding-left: 125px;
+    padding-bottom: 64px;
+  }
+  .global_bottom .copyright h6 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -541,26 +541,101 @@ nav {
             max-height: 255px;
         }
     }
+
     .project_box {
-flex-direction: row;
- padding-top: 32px 0px 0px 0px;
- justify-content: space-between;
+        flex-direction: row;
+        padding-top: 32px 0px 0px 0px;
+        justify-content: space-between;
 
     }
 
-.project_item {
-    margin-top: 0px;
-}
-.for_margin {
-    margin-top: 32px;
-    min-width: 336px;
-}
-.mg {
-    margin-right: 32px;
-    margin-bottom: 110px;
-}
+    .project_item {
+        margin-top: 0px;
+    }
+
+    .for_margin {
+        margin-top: 32px;
+        min-width: 336px;
+    }
+
+    .mg {
+        margin-right: 32px;
+        margin-bottom: 110px;
+    }
+
     .global_bottom {
-        --minheigh_for_footer: 644px;
-        min-height: var(--minheigh_for_footer);
+        min-height: 644px;
+
+        .footer_wrap {
+            display: flex;
+        }
+
+        .footer_box {
+            max-width: 336px;
+            padding: 47px 0px 64px 125px;
+            display: flex;
+            flex-direction: column;
+
+            h5 {
+                font-size: 36px;
+                line-height: 46px;
+                letter-spacing: 0.05em;
+                text-align: left;
+                padding: 0;
+                max-width: none;
+            }
+
+            p {
+                text-align: left;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: 0.05em;
+            }
+        }
+
+        .footer_box_link {
+            padding: 0px;
+            margin: 0px;
+            margin-top: 160px;
+            margin-left: 50px;
+            min-width: 135px;
+            min-height: 32px;
+
+            a {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                letter-spacing: 0.04em;
+            }
+        }
+
+        .footer_ol {
+            padding-top: 64px;
+            padding-left: 125px;
+            padding-bottom: 64px;
+
+            li {
+                padding-left: 35px;
+            }
+
+        }
+
+        .copyright {
+            max-width: 250px;
+            padding-left: 125px;
+            padding-bottom: 64px;
+
+            h6 {
+                padding: 0;
+                margin: 0;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: 0.05em;
+            }
+        }
+
     }
 }
