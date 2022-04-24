@@ -458,6 +458,78 @@ nav {
     margin-left: -30px;
   }
 
+  .project h2 {
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding-top: 127px;
+    padding-bottom: 64px;
+    max-width: none;
+  }
+  .project .project_text_block {
+    min-width: 520px;
+  }
+  .project .project_text_block p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+  }
+  .project .project_item_title_smart {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+  }
+  .project .project_item_title_smart h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+  }
+  .project .project_item_title {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  .project .project_item_title h3 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+  }
+  .project .img_smart {
+    max-height: 296px;
+  }
+  .project .img_cards {
+    max-height: 255px;
+  }
+
+  .project_box {
+    flex-direction: row;
+    padding-top: 32px 0px 0px 0px;
+    justify-content: space-between;
+  }
+
+  .project_item {
+    margin-top: 0px;
+  }
+
+  .for_margin {
+    margin-top: 32px;
+    min-width: 336px;
+  }
+
+  .mg {
+    margin-right: 32px;
+    margin-bottom: 110px;
+  }
+
   .global_bottom {
     --minheigh_for_footer: 644px;
     min-height: var(--minheigh_for_footer);
