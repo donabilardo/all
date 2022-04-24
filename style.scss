@@ -790,8 +790,44 @@ nav {
                 letter-spacing: 0.05em;
             }
         }
+
         .project_box {
             padding-bottom: 112px;
         }
     }
+
+    .global_bottom {
+        min-height: 657px;
+
+        .footer_box {
+            max-width: 495px;
+            padding: 91px 0px 96px 0px;
+
+            h5 {
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 46px;
+                letter-spacing: 0.05em;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                letter-spacing: 0.05em;
+                padding-top: 32px;
+            }
+        }
+        .footer_box_link {
+            margin-top: 160px;
+            margin-left: 407px;
+            min-width: 236px;
+            min-height: 115px;
+            a {
+                padding: 15px 80px;
+            }
+        }
+    }
+
+
 }

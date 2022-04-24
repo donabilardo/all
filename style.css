@@ -726,4 +726,34 @@ nav {
   .project .project_box {
     padding-bottom: 112px;
   }
+
+  .global_bottom {
+    min-height: 657px;
+  }
+  .global_bottom .footer_box {
+    max-width: 495px;
+    padding: 91px 0px 96px 0px;
+  }
+  .global_bottom .footer_box h5 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+  }
+  .global_bottom .footer_box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    padding-top: 32px;
+  }
+  .global_bottom .footer_box_link {
+    margin-top: 160px;
+    margin-left: 407px;
+    min-width: 236px;
+    min-height: 115px;
+  }
+  .global_bottom .footer_box_link a {
+    padding: 15px 80px;
+  }
 }/*# sourceMappingURL=style.css.map */
