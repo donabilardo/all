@@ -512,7 +512,7 @@ nav {
 
   .project_box {
     flex-direction: row;
-    padding-top: 32px 0px 0px 0px;
+    padding-top: 32px;
     justify-content: space-between;
   }
 
@@ -592,5 +592,60 @@ nav {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
+  }
+}
+@media (min-width: 900px) {
+  .container {
+    max-width: 1140px;
+    padding: 0px;
+  }
+
+  .top_wrap nav {
+    margin-top: 34px;
+  }
+
+  .top_info {
+    background-size: auto;
+  }
+  .top_info h1 {
+    padding-top: 107px;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+  }
+  .top_info .top_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+  }
+
+  .card_box {
+    display: flex;
+    flex-direction: row;
+    /* Safari */
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .card_box h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    max-width: none;
+    flex-basis: 1140px;
+    box-sizing: border-box;
+    align-self: center;
+  }
+  .card_box .card {
+    flex-basis: 359px;
+    margin: 0px;
+    margin-right: 32px;
+    box-sizing: border-box;
+  }
+  .card_box .card:last-child {
+    margin-right: 0px;
   }
 }/*# sourceMappingURL=style.css.map */
