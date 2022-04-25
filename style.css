@@ -756,4 +756,7 @@ nav {
   .global_bottom .footer_box_link a {
     padding: 15px 80px;
   }
+  .global_bottom .footer_ol {
+    padding-left: 0px;
+  }
 }/*# sourceMappingURL=style.css.map */
