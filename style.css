@@ -766,6 +766,41 @@ nav {
     margin-bottom: 110px;
   }
 
+  .title_wrap {
+    background-image: url(img/MaskGroup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+
+  .title_box .title_h1 {
+    padding-top: 60px;
+  }
+  .title_box .title_h1 h1 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  }
+  .title_box .title_text {
+    max-width: 520px;
+    padding-top: 16px;
+    margin: 0 auto;
+  }
+  .title_box .title_text p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
   .global_bottom {
     min-height: 644px;
   }

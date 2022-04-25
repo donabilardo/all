@@ -586,11 +586,13 @@ nav {
         }
     }
 }
+
 .maps {
     width: 100%;
     min-height: 400px;
     margin: 0px;
     padding: 0px;
+
     iframe {
         padding: 32px 0px 32px 0px;
         width: 100%;
@@ -801,6 +803,46 @@ nav {
     .mg {
         margin-right: 32px;
         margin-bottom: 110px;
+    }
+
+    .title_wrap {
+         background-image: url(img/MaskGroup.png) ;
+         background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+
+    .title_box {
+        .title_h1 {
+            padding-top: 60px;
+
+            h1 {
+                font-family: 'Roboto';
+                font-weight: 500;
+                font-size: 44px;
+                line-height: 74px;
+                text-align: center;
+                letter-spacing: 0.04em;
+                color: #FFFFFF;
+            }
+        }
+
+        .title_text {
+            max-width: 520px;
+            padding-top: 16px;
+            margin: 0 auto;
+
+            p {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: center;
+                letter-spacing: 0.04em;
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
     }
 
     .global_bottom {
