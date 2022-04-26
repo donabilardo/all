@@ -356,7 +356,239 @@ nav {
   margin-left: 20px;
 }
 
-@media (max-width: 500px) {
+.title_wrap {
+  background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+  padding-bottom: 30px;
+  background-image: url(img/title.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title_box {
+  min-height: 270px;
+}
+.title_box .title_h1 {
+  padding-top: 48px;
+  box-sizing: border-box;
+}
+.title_box .title_h1 h1 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  max-width: none;
+  padding: 0px;
+}
+.title_box .title_text {
+  padding-top: 32px;
+  max-width: 340px;
+}
+.title_box .title_text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact_box .contact_item {
+  display: flex;
+  flex-direction: column;
+  padding-left: 55px;
+}
+.contact_box .contact_item img {
+  max-height: 181px;
+  align-self: center;
+  padding-top: 45px;
+  padding-bottom: 75px;
+}
+.contact_box .contact_item h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  display: inline-flex;
+  margin: 0px;
+  padding-bottom: 24px;
+}
+.contact_box .contact_item p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+  padding-bottom: 32px;
+  max-width: 300px;
+}
+.contact_box .contact_item .phone {
+  list-style-image: url(/img/phone.svg);
+  margin-left: 25px;
+}
+.contact_box .contact_item .phone li:first-child {
+  padding-bottom: 16px;
+  padding-left: 19px;
+}
+.contact_box .contact_item .phone li:last-child {
+  padding-bottom: 34px;
+  padding-left: 19px;
+}
+.contact_box .contact_item .website {
+  margin-left: 25px;
+}
+.contact_box .contact_item .website li:first-child {
+  list-style-image: url(img/site.svg);
+  padding-bottom: 16px;
+  padding-left: 19px;
+}
+.contact_box .contact_item .website li:last-child {
+  list-style-image: url(img/mail.svg);
+  padding-left: 19px;
+}
+.contact_box .contact_item .website a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.contact_box .form_contact {
+  background: #FFFFFF;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  min-height: 514px;
+  max-width: 342px;
+  padding-left: 0px;
+  margin: 0 auto;
+  margin-top: 32px;
+  display: flex;
+}
+.contact_box .form_contact h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 31px;
+}
+.contact_box .form_contact form {
+  padding: 35px;
+  min-height: 515px;
+}
+.contact_box .form_contact label {
+  display: inline-block;
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+  margin: 0;
+}
+.contact_box .form_contact input {
+  height: 45px;
+  width: 270px;
+  opacity: 0.4;
+  border: 1px solid #356EAD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-indent: 25px;
+  margin-bottom: 20px;
+}
+.contact_box .form_contact input::-moz-placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.2;
+}
+.contact_box .form_contact input:-ms-input-placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.2;
+}
+.contact_box .form_contact input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.2;
+}
+.contact_box .form_contact textarea {
+  resize: none;
+  opacity: 0.4;
+  border: 1px solid #356EAD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 100%;
+}
+.contact_box .form_contact button {
+  background: #5A98D0;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  width: 100%;
+  height: 47px;
+  margin-top: 47px;
+  border: 0px;
+}
+
+.maps {
+  width: 100%;
+  min-height: 400px;
+  margin: 0px;
+  padding: 0px;
+}
+.maps iframe {
+  padding: 32px 0px 32px 0px;
+  width: 100%;
+  min-height: 350px;
+  border: 0px;
+}
+
+@media (min-width: 500px) {
   .container {
     padding: 0px 32px 0px 32px;
   }
@@ -539,7 +771,6 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
-    margin-top: 20px;
   }
 
   .title_box .title_h1 {
@@ -568,180 +799,6 @@ nav {
     text-align: center;
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, 0.6);
-  }
-
-  .contact_box .contact_item {
-    display: flex;
-    flex-direction: column;
-    padding-left: 235px;
-  }
-  .contact_box .contact_item img {
-    max-height: 181px;
-    align-self: center;
-    padding-top: 45px;
-    padding-bottom: 75px;
-  }
-  .contact_box .contact_item h2 {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    display: inline-flex;
-    margin: 0px;
-    padding-bottom: 24px;
-  }
-  .contact_box .contact_item p {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.6;
-    padding-bottom: 32px;
-    max-width: 300px;
-  }
-  .contact_box .contact_item .phone {
-    list-style-image: url(/img/phone.svg);
-    margin-left: 25px;
-  }
-  .contact_box .contact_item .phone li:first-child {
-    padding-bottom: 16px;
-    padding-left: 19px;
-  }
-  .contact_box .contact_item .phone li:last-child {
-    padding-bottom: 34px;
-    padding-left: 19px;
-  }
-  .contact_box .contact_item .website {
-    margin-left: 25px;
-  }
-  .contact_box .contact_item .website li:first-child {
-    list-style-image: url(img/site.svg);
-    padding-bottom: 16px;
-    padding-left: 19px;
-  }
-  .contact_box .contact_item .website li:last-child {
-    list-style-image: url(img/mail.svg);
-    padding-left: 19px;
-  }
-  .contact_box .contact_item .website a {
-    text-decoration: none;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #1F3F68;
-  }
-  .contact_box .form_contact {
-    background: #FFFFFF;
-    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    min-height: 514px;
-    max-width: 520px;
-    padding-left: 0px;
-    margin: 0 auto;
-    margin-top: 64px;
-    display: flex;
-  }
-  .contact_box .form_contact h3 {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    text-align: left;
-    text-transform: uppercase;
-    padding-bottom: 31px;
-  }
-  .contact_box .form_contact form {
-    padding: 35px;
-    min-height: 780px;
-  }
-  .contact_box .form_contact label {
-    display: inline-block;
-    width: 100%;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.8;
-    margin: 0;
-  }
-  .contact_box .form_contact input {
-    height: 45px;
-    width: 270px;
-    opacity: 0.4;
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    text-indent: 25px;
-    margin-bottom: 20px;
-  }
-  .contact_box .form_contact input::-moz-placeholder {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.2;
-  }
-  .contact_box .form_contact input:-ms-input-placeholder {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.2;
-  }
-  .contact_box .form_contact input::placeholder {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.2;
-  }
-  .contact_box .form_contact textarea {
-    resize: none;
-    opacity: 0.4;
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    width: 100%;
-  }
-  .contact_box .form_contact button {
-    background: #5A98D0;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    width: 100%;
-    height: 47px;
-    margin-top: 47px;
-    border: 0px;
   }
 
   .global_bottom {
@@ -808,236 +865,165 @@ nav {
     letter-spacing: 0.05em;
   }
 }
-@media (max-width: 950px) {
-  .title_wrap {
-    background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
-    padding-bottom: 30px;
-    background-image: url(img/title.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100%;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  .title_box {
-    min-height: 270px;
-  }
-  .title_box .title_h1 {
-    padding-top: 38px;
-    box-sizing: border-box;
-  }
-  .title_box .title_h1 h1 {
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    max-width: none;
+@media (min-width: 900px) {
+  .container {
+    max-width: 1140px;
     padding: 0px;
   }
-  .title_box .title_text {
-    padding-top: 32px;
-    max-width: 340px;
-  }
-  .title_box .title_text p {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.6);
+
+  .top_wrap {
+    width: 100%;
   }
 
-  .contact_box .contact_item {
-    display: flex;
-    flex-direction: column;
-    padding-left: 55px;
+  .top_wrap nav {
+    margin-top: 34px;
   }
-  .contact_box .contact_item img {
-    max-height: 181px;
-    align-self: center;
-    padding-top: 45px;
-    padding-bottom: 75px;
+
+  .top_info {
+    background-size: auto;
   }
-  .contact_box .contact_item h2 {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    text-transform: uppercase;
+  .top_info h1 {
+    padding-top: 107px;
+    font-size: 64px;
+    line-height: 74px;
     letter-spacing: 0.04em;
-    color: #1F3F68;
-    display: inline-flex;
-    margin: 0px;
-    padding-bottom: 24px;
   }
-  .contact_box .contact_item p {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.6;
-    padding-bottom: 32px;
-    max-width: 300px;
-  }
-  .contact_box .contact_item .phone {
-    list-style-image: url(/img/phone.svg);
-    margin-left: 25px;
-  }
-  .contact_box .contact_item .phone li:first-child {
-    padding-bottom: 16px;
-    padding-left: 19px;
-  }
-  .contact_box .contact_item .phone li:last-child {
-    padding-bottom: 34px;
-    padding-left: 19px;
-  }
-  .contact_box .contact_item .website {
-    margin-left: 25px;
-  }
-  .contact_box .contact_item .website li:first-child {
-    list-style-image: url(img/site.svg);
-    padding-bottom: 16px;
-    padding-left: 19px;
-  }
-  .contact_box .contact_item .website li:last-child {
-    list-style-image: url(img/mail.svg);
-    padding-left: 19px;
-  }
-  .contact_box .contact_item .website a {
-    text-decoration: none;
-    font-family: "Roboto";
-    font-style: normal;
+  .top_info .top_text {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #1F3F68;
   }
-  .contact_box .form_contact {
-    background: #FFFFFF;
-    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    min-height: 514px;
-    max-width: 342px;
-    padding-left: 0px;
-    margin: 0 auto;
-    margin-top: 32px;
+
+  .card_box {
     display: flex;
+    flex-direction: row;
+    /* Safari */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
   }
-  .contact_box .form_contact h3 {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
+  .card_box h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    max-width: none;
+    flex-basis: 1140px;
+    box-sizing: border-box;
+    align-self: center;
+  }
+  .card_box .card {
+    flex-basis: 359px;
+    min-width: 359px;
+    margin: 0px;
+    margin-right: 16px;
+    box-sizing: border-box;
+  }
+  .card_box .card:last-child {
+    margin-right: 0px;
+  }
+  .card_box h4 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+  }
+  .card_box .card_text {
     font-size: 16px;
+    line-height: 26px;
+  }
+  .card_box .card_box_link {
+    font-size: 14px;
     line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    text-align: left;
-    text-transform: uppercase;
-    padding-bottom: 31px;
   }
-  .contact_box .form_contact form {
-    padding: 35px;
-    min-height: 515px;
+
+  .project h2 {
+    padding: 64px 0px 32px 0px;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
   }
-  .contact_box .form_contact label {
-    display: inline-block;
-    width: 100%;
-    font-family: "Roboto";
-    font-style: normal;
+  .project .project_text_block {
+    max-width: 750px;
+    padding-bottom: 64px;
+  }
+  .project .project_text_block p {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.8;
-    margin: 0;
-  }
-  .contact_box .form_contact input {
-    height: 45px;
-    width: 270px;
-    opacity: 0.4;
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    text-indent: 25px;
-    margin-bottom: 20px;
-  }
-  .contact_box .form_contact input::-moz-placeholder {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.2;
-  }
-  .contact_box .form_contact input:-ms-input-placeholder {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.2;
-  }
-  .contact_box .form_contact input::placeholder {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    color: #1F3F68;
-    opacity: 0.2;
-  }
-  .contact_box .form_contact textarea {
-    resize: none;
-    opacity: 0.4;
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    width: 100%;
-  }
-  .contact_box .form_contact button {
-    background: #5A98D0;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    width: 100%;
-    height: 47px;
-    margin-top: 47px;
-    border: 0px;
+    letter-spacing: 0.05em;
+    color: #222222;
+  }
+  .project .for_margin {
+    margin-top: 0px;
+  }
+  .project .img_smart {
+    min-height: 480px;
+  }
+  .project .img_cards {
+    min-height: 417px;
+  }
+  .project .project_item_title_smart {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    font-size: 32px;
+  }
+  .project .project_item_title_smart h3 {
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+  }
+  .project .project_item_title {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+  }
+  .project .project_item_title h3 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+  }
+  .project .project_box {
+    padding-bottom: 112px;
   }
 
-  .maps {
-    width: 100%;
-    min-height: 400px;
-    margin: 0px;
-    padding: 0px;
+  .global_bottom {
+    min-height: 657px;
   }
-  .maps iframe {
-    padding: 32px 0px 32px 0px;
-    width: 100%;
-    min-height: 350px;
-    border: 0px;
+  .global_bottom .footer_box {
+    max-width: 495px;
+    padding: 91px 0px 96px 0px;
+  }
+  .global_bottom .footer_box h5 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+  }
+  .global_bottom .footer_box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    padding-top: 32px;
+  }
+  .global_bottom .footer_box_link {
+    margin-top: 160px;
+    margin-left: 407px;
+    min-width: 236px;
+    min-height: 115px;
+  }
+  .global_bottom .footer_box_link a {
+    padding: 15px 80px;
+  }
+  .global_bottom .footer_ol {
+    padding-left: 0px;
   }
 }/*# sourceMappingURL=style.css.map */
